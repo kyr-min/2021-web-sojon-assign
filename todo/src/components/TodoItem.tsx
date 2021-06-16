@@ -6,7 +6,7 @@ interface TodoItemProps {
 
 function TodoItem(props: TodoItemProps) {
   return(
-    <div>{props.name}</div>
+    <li className="todoItems">{props.name}&nbsp;&nbsp;&nbsp;&nbsp;</li>
   )
 }
 
