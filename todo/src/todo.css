@@ -1,0 +1,40 @@
+.completed {
+    opacity: 50%;
+    color: gray;
+    transition-duration: 500ms;
+    position: relative;
+}
+/* .completed::after {
+    content: "";
+    width: ;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+} */
+.completed+button {
+    display: none;
+}
+
+input {
+    border: 2px solid black; 
+    border-radius: 3px;
+}
+
+body {
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+}
+#root {
+    border: 5px solid navy;
+}
+
+ol {
+    display:inline-block;
+    border: 3px dotted black;
+}
